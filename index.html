@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--About the first nav-->
+    <section id="about" >
+      <h2 class="tit">Software Developer</h2>
+      <div class="about-content">
+        <img src="./Asset/profile.jpg">
+
+        <div class="about-text">
+          <h1 class="head">Tsigabu Seyoum Full-Stack Engineer From Addis Ababa University</h1>
+          <p class="para">Hi, I'm Tsigabu Seyoum , A Full-Stack Engineer With A Diverse Set Of Skills. I Have Expertise In HTML, CSS, JavaScript,React.js Library And Node js.</p>
+          
+        </div>
+      </div>
+    </section>
+<!--About the Second nav-->
+    <section id="projects">
+      
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="./Asset/project-1.jpg" alt="Project 1 Screenshot">
+          <h3>Project 1</h3>
+          <p class="description">My Java project was a banking system that aimed to solve real-world problems.<span class="hidden-text"> The banking system application I developed provided a comprehensive set of features to cater to the needs of both individual customers and small-to-medium enterprises.
+            
+              The system included functionalities such as account management, fund transfers, bill payments, loan processing, and transaction history tracking. It utilized secure authentication and authorization mechanisms to protect user data and prevent unauthorized access.
+              Furthermore, the system incorporated advanced analytics and reporting capabilities, allowing bank managers to gain valuable insights into customer behavior, transaction patterns and so on.
+            </span>
+          </p>
+          <button class="read-more-btn">Read More</button>
+        </div>
+
+        <div class="project-card">
+          <img src="./Asset/project-2.jpg" alt="">
+          <h3>Project 2</h3>
+          <p class="description">My C# project was an ATM (Automated Teller Machine) management system, which aimed to solve real-world problems in banking systems for customers.<span class="hidden-text">The system I developed provided a comprehensive solution to streamline the operations and management of ATMs, ultimately enhancing the overall customer experience.
+            
+              The ATM management system incorporated features such as secure user authentication, seamless cash withdrawals and deposits, balance inquiries, and transaction history tracking. It also included advanced monitoring and reporting capabilities, enabling bank administrators to remotely manage and maintain the ATM network effectively.
+              By addressing common challenges faced by traditional ATM systems, such as inefficient cash replenishment, lengthy downtime, and inconsistent user experiences.
+            </span>
+          </p>
+          <button class="read-more-btn">Read More</button>
+        </div>
+
+        <div class="project-card">
+          <img src="./Asset/project-3 .jpg" alt="">
+          <h3>Project 3</h3>
+          <p class="description">My Front-End project Using html,css And javascript. which was my first project . And it was challenging and also amazing<span class="hidden-text">The project allowed me to apply the skills I had learned in HTML, CSS, and JavaScript to build a responsive and interactive web application. Despite the challenges, I found the project to be an engaging and rewarding experience, as it helped me solidify my understanding of the front-end development process and gain practical experience in creating a functional website.
+              Through this project, I not only improved my technical abilities but also developed a stronger appreciation for the design and user experience aspects of web development. It served as a valuable learning opportunity and a stepping stone towards my future endeavors in the field of web development.
+            </span>
+          </p>
+          <button class="read-more-btn">Read More</button>
+        </div>
+      </div>
+    </section>
+    <!--About third nav-->
+
+    
+
+    <section id="skills" class="section-hidden">
+      <h2>My Skills</h2>
+      <div class="skill-container">
+        <div class="skill">
+          <div class="subject">HTML</div>
+          <div class="progress-bar" value="90">
+            <div class="progress-line" style="max-width:76%"></div>
+            <div class="progress-percentage">76% </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">CSS</div>
+          <div class="progress-bar" value="85">
+            <div class="progress-line" style="max-width:70%"></div>
+            <div class="progress-percentage">70% </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">JavaScript</div>
+          <div class="progress-bar" value="80">
+            <div class="progress-line" style="max-width:75%"></div>
+            <div class="progress-percentage">75% </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">SQL</div>
+          <div class="progress-bar" value="75">
+            <div class="progress-line" style="max-width:80%"></div>
+            <div class="progress-percentage">80% </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">Node.js</div>
+          <div class="progress-bar" value="70">
+            <div class="progress-line" style="max-width:50%"></div>
+            <div class="progress-percentage">50% </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="subject">Python</div>
+          <div class="progress-bar" value="70">
+            <div class="progress-line" style="max-width:80%"></div>
+            <div class="progress-percentage">80% </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+<!--About the fourth nav-->
+    <section id="contact" class="section-hidden">
+      <h2 class="animate-heading">Get in Touch</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="sub">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+
+
+    <p>&copy; 2024 Tsigabu Seyoum. All rights reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
